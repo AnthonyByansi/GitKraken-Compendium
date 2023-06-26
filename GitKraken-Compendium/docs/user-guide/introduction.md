@@ -20,7 +20,7 @@ GitKraken is a powerful Git client designed to simplify version control and stre
 
 To get started with GitKraken, follow these simple steps:
 
-1. **Install GitKraken**: Download and install GitKraken from the official website for your operating system.
+1. **Install GitKraken**: Download and install GitKraken from the [official website](https://www.gitkraken.com/) for your operating system.
 
 2. **Authenticate with Git Hosting Providers**: Connect GitKraken to your preferred Git hosting platform, such as GitHub, Bitbucket, or GitLab, to access your repositories.
 
