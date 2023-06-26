@@ -6,12 +6,12 @@ The GitKraken-Compendium repository serves as a comprehensive guide and resource
 
 ## Table of Contents 📚
 
-- [Introduction](#introduction)
-- [Documentation](#documentation)
-- [Source Code](#source-code)
+- [Introduction](#introduction-)
+- [Documentation](#documentation-)
+- [Source Code](#source-code-)
 - [Testing](#testing)
-- [Contributing](#contributing)
-- [License](#license)
+- [Contributing](#contributing-)
+- [License](#license-)
 
 ## Introduction 🌟
 
