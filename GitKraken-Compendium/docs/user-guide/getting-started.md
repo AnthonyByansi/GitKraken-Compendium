@@ -1,53 +1,74 @@
 # Getting Started with GitKraken
 
-Welcome to GitKraken! This guide will walk you through the essential steps to get started with GitKraken and start collaborating on your projects efficiently.
+This guide will walk you through the initial setup and basic usage of GitKraken, helping you get started with version control and collaboration.
 
-## Setting Up GitKraken
+## Table of Contents
 
-1. **Authentication**: After launching GitKraken, you will be prompted to authenticate with your Git hosting provider. Select your provider (e.g., GitHub, Bitbucket, GitLab) and follow the authentication flow to grant GitKraken access to your repositories.
+- [Installation](#installation)
+- [Authentication](#authentication)
+- [Cloning a Repository](#cloning-a-repository)
+- [Interface Overview](#interface-overview)
+- [Creating Commits](#creating-commits)
+- [Working with Branches](#working-with-branches)
+- [Pushing and Pulling Changes](#pushing-and-pulling-changes)
+- [Resolving Conflicts](#resolving-conflicts)
 
-2. **Repository Cloning**: To work on an existing repository, click on the "Clone a Repository" button in the GitKraken interface. Enter the repository URL and specify the local directory where you want to clone it.
+## Installation
 
-3. **Creating a New Repository**: To create a new repository from scratch, click on the "Create a New Repo" button in the GitKraken interface. Specify the repository name, description, and local directory where you want to initialize the repository.
+Ensure that GitKraken is successfully installed on your system by following the installation guide provided in [user-guide/installation.md](installation.md).
 
-## Understanding the GitKraken Interface
+## Authentication
 
-![GitKraken Interface](images/gitkraken-interface.png)
+1. Launch GitKraken and sign in with your Git hosting provider credentials (e.g., GitHub, Bitbucket, GitLab) to connect your account.
 
-1. **Commit Graph**: The central component of the GitKraken interface is the commit graph, which provides a visual representation of your repository's commit history, branches, and merges. Each commit is represented by a node, and branches are displayed as colored lines.
+2. Authenticate GitKraken to access your repositories and enable seamless integration with your Git hosting platform.
 
-2. **File Tree**: The file tree panel displays the files and folders within your repository. You can expand or collapse directories and click on individual files to view their content and history.
+## Cloning a Repository
 
-3. **Panels**: GitKraken offers several panels that provide additional functionality, including the commit details panel, the branch and tag list panel, the pull request panel, and the code review panel. You can show or hide these panels based on your workflow requirements.
+1. Click on the "Clone" button in the GitKraken toolbar.
 
-## Basic Git Operations in GitKraken
+2. Provide the URL of the repository you want to clone and select a local directory to store the repository.
 
-1. **Committing Changes**: To commit changes, select the files you want to include in the commit by clicking on them in the file tree. Enter a commit message and click the "Commit" button. GitKraken will create a new commit in the commit graph.
+3. Click "Clone the repo!" to initiate the cloning process.
 
-2. **Creating and Switching Branches**: To create a new branch, right-click on a commit in the graph or click on the branch button in the top toolbar. Enter the branch name and press Enter. To switch between branches, double-click on the branch name in the graph or use the branch selector in the top toolbar.
+## Interface Overview
 
-3. **Merging Branches**: To merge branches, right-click on the branch you want to merge into another branch and select "Merge into Branch." Select the target branch and click "Merge." GitKraken will perform the merge and update the commit graph accordingly.
+1. Familiarize yourself with the main components of the GitKraken interface, including the commit graph, file tree, and panels for branches, commit details, and file changes.
 
-4. **Resolving Conflicts**: If conflicts occur during a merge or rebase operation, GitKraken will highlight the conflicting files in the file tree. To resolve conflicts, open the file, locate the conflict markers, and make the necessary modifications. After resolving conflicts, mark the file as resolved in GitKraken.
+2. Explore the various visual indicators and icons used in the interface to represent different states and actions.
 
-## Collaborating with GitKraken
+## Creating Commits
 
-1. **Pushing and Pulling**: To push your local commits to a remote repository, click the "Push" button in the top toolbar. To pull changes from the remote repository, click the "Pull" button. GitKraken will update the commit graph with the latest changes.
+1. Make changes to your files within your local repository.
 
-2. **Creating Pull Requests**: If your Git hosting provider supports pull requests, you can create one directly within GitKraken. Right-click on a branch, select "Create Pull Request," and follow the prompts to set up the pull request. You can review and merge pull requests using the pull request panel.
+2. Open the GitKraken interface and review the file changes in the "Unstaged Files" section.
 
-3. **Code Reviews**: GitKraken provides an integrated code review functionality. Open a pull request, review the changes, add comments, and provide feedback. Collaborators can view and respond to code review comments, enabling a seamless review process.
+3. Stage the desired files for the next commit by clicking on the "+" icon next to each file or using the "Stage All" button.
 
-## Advanced GitKraken Features
+4. Provide a commit message that clearly describes the changes made in the commit.
 
-1. **Search and Filtering**: Utilize the search bar in the top toolbar to search for specific commits, branches, files, or even text within your repository. You can also apply filters to narrow down your search results and focus on specific criteria.
+5. Click the "Commit" button to create the commit.
 
-2. **Undo and Redo**: GitKraken offers undo and redo functionality to revert or reapply actions within the interface. Use the keyboard shortcuts (Ctrl+Z for undo, Ctrl+Y or Ctrl+Shift+Z for redo) or access these options from the Edit menu.
+## Working with Branches
 
-3. **Customization**: GitKraken allows you to customize various aspects of the interface, including themes, fonts, and keybindings. Access the preferences menu to explore and adjust the settings to your preferences.
+1. Create a new branch by clicking on the branch dropdown in the toolbar and selecting "New Branch" or by right-clicking on a commit in the graph and choosing "New Branch Here".
 
-## Next Steps
+2. Switch between branches by selecting the desired branch from the branch dropdown.
 
-Congratulations! You now have a solid understanding of the basic and advanced features of GitKraken. To dive deeper into specific topics or explore advanced GitKraken functionalities, refer to the detailed user guides and tutorials in the [documentation](../) directory.
+3. Merge branches by dragging one branch onto another in the commit graph or by right-clicking on a branch and selecting "Merge branch into current".
 
-Happy GitKraken-ing! 🐙💻
+## Pushing and Pulling Changes
+
+1. Push your local commits to the remote repository by clicking on the "Push" button in the toolbar.
+
+2. Pull the latest changes from the remote repository to your local repository by clicking on the "Pull" button in the toolbar.
+
+## Resolving Conflicts
+
+1. In case of conflicts during a merge or pull operation, GitKraken will display the conflicted files with options to resolve them.
+
+2. Use the built-in merge tool or an external merge tool of your choice to resolve conflicts.
+
+3. After resolving conflicts, stage the modified files and create a new commit.
+
+Congratulations! You are now familiar with the basic usage of GitKraken. Continue exploring the advanced features and capabilities of GitKraken in the user guide to enhance your version control workflow.
