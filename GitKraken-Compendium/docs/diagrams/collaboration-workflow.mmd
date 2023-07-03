@@ -1,0 +1,21 @@
+graph TD
+  A[Main Branch] -- Checkout --> B{Create New Branch?}
+  B -- Yes --> C(Create Branch)
+  B -- No --> D(Checkout Branch)
+  C --> E(Work on the Branch)
+  E --> F(Commit Changes)
+  F --> G(Push Branch)
+  G --> H(Create Pull Request)
+  H --> I{Code Review and Testing}
+  I -- Changes Requested --> E
+  I -- Approved --> J(Merge to Main)
+  J --> K(Checkout Main)
+  K --> L(Pull Latest Changes)
+  L --> M{Conflicts?}
+  M -- Yes --> N(Resolve Conflicts)
+  N --> O(Commit Changes)
+  O --> P(Push Changes)
+  P --> Q(Create Pull Request)
+  Q --> I
+  M -- No --> R(Continue Development)
+  J --> B
