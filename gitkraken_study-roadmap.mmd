@@ -1,0 +1,32 @@
+graph TB
+
+  subgraph GitKraken
+    style GitKraken fill:#6D57FF,stroke:#3F3697,color:#FFFFFF;
+
+    subgraph VersionControl
+      style VersionControl fill:#4E88FF,stroke:#3F3697,color:#FFFFFF;
+      VC1[Centralized] --> VC2[Decentralized]
+      VC2 --> VC3[Distributed]
+    end
+
+    subgraph Collaboration
+      style Collaboration fill:#89E7FF,stroke:#3F3697,color:#FFFFFF;
+      C1[Code Reviews] --> C2[Pull Requests]
+      C2 --> C3[Collaborative Editing]
+    end
+
+    subgraph Visualization
+      style Visualization fill:#5AFFC9,stroke:#3F3697,color:#FFFFFF;
+      V1[Commit Graph] --> V2[Branches]
+      V2 --> V3[Timelines]
+    end
+  end
+
+  subgraph Roadmap
+    style Roadmap fill:#F2F2F2,stroke:#CCCCCC,color:#000000;
+    R1(2023 Q1) --> R2(2023 Q2)
+    R2 --> R3(2023 Q3)
+    R3 --> R4(2023 Q4)
+  end
+
+  GitKraken --> Roadmap
