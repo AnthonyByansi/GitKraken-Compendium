@@ -1,9 +1,23 @@
 graph LR
-  A[Create New Branch] --> B(Add and Commit Changes)
-  B --> C(Push Branch to Remote)
-  C --> D{Are Changes Ready for Merge?}
-  D -- Yes --> E(Create Pull Request)
-  E --> F(Review and Approve Pull Request)
-  F --> G(Merge Pull Request)
-  G --> H(Delete Merged Branch)
-  D -- No --> B
+
+  subgraph Master
+    A(Master)
+    A --> |"Create Feature Branch"| B(Feature Branch)
+  end
+
+  subgraph Feature
+    B --> |"Implement Feature"| C(Feature Changes)
+    C --> |"Commit Changes"| D(Commit)
+    D --> |"Push to Remote"| E
+  end
+
+  subgraph Review
+    E(Feature Branch)
+    E --> |"Create Pull Request"| F(Pull Request)
+    F --> |"Review Code"| G
+    G --> |"Merge to Master"| H
+  end
+
+  subgraph Deploy
+    H --> |"Deploy to Production"| I(Production)
+  end
