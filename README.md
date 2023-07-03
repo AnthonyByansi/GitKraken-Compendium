@@ -33,6 +33,24 @@ The `tests/` directory contains test suites that correspond to the different sec
 
 Contributions to GitKraken-Compendium are highly appreciated! If you would like to contribute, please follow the guidelines outlined in the [CONTRIBUTING.md](CONTRIBUTING.md) file. By contributing, you agree to release your contributions under the [MIT License](LICENSE).
 
+## GitKraken Learning Roadmap
+
+The following Mermaid architecture diagram illustrates a suggested learning roadmap for GitKraken:
+
+```mermaid
+graph LR
+  A[Getting Started with Git] --> B(Install GitKraken)
+  B --> C(Connect GitKraken to Git Hosting Provider)
+  C --> D(Clone Repository)
+  D --> E(Explore GitKraken Interface)
+  E --> F(Perform Basic Git Operations)
+  F --> G(Work with Branches)
+  G --> H(Resolve Merge Conflicts)
+  H --> I(Perform Code Reviews)
+  I --> J(Advanced GitKraken Features)
+```
+---
+
 ## License 📃 
 
 This repository is licensed under the [MIT License](LICENSE). By using or contributing to GitKraken-Compendium, you agree to the terms and conditions of this license.
