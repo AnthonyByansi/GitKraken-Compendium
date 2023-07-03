@@ -1,0 +1,10 @@
+graph LR
+  A[GitKraken] -- Cherry-Picking --> B(Select Specific Commits)
+  A -- Stashing --> C(Temporarily Save Changes)
+  A -- Git Hooks --> D(Trigger Custom Actions)
+  A -- Command-Line Interface --> E(Perform Git Operations)
+
+  B --> F{Apply Commits}
+  C --> F
+  D --> F
+  E --> F
