@@ -1,0 +1,16 @@
+graph TD
+  A[Main Branch] -- Checkout --> B(Create Branch)
+  B --> C(Work on Branch)
+  C --> D(Commit Changes)
+  D --> E(Push Branch)
+  E --> F(Create Pull Request)
+  F --> G{Rebase Needed?}
+  G -- Yes --> H(Rebase Branch)
+  H --> I(Resolve Conflicts)
+  I --> J(Continue Rebase)
+  J --> F
+  G -- No --> K(Merge Pull Request)
+  K --> L(Checkout Main)
+  L --> M(Pull Latest Changes)
+  M --> N(Commit Changes)
+  N --> O(Push Changes)
