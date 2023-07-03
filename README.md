@@ -73,7 +73,30 @@ graph LR
   end
 
 ```
+---
+```mermaid
+graph LR
+  A[Master GitKraken Features] --> B(Installation)
+  A --> C(Branching and Merging)
+  A --> D(Visual Git Graph)
+  A --> E(Collaboration)
+  A --> F(Advanced Workflows)
+  A --> G(Rebasing and Cherry-picking)
+  A --> H(Code Reviews)
+  A --> I(Issue Tracking Integration)
 
+  style A fill:#6cb7ff, stroke:#2472c8, stroke-width:2px;
+  style B fill:#9fd8ff, stroke:#2472c8, stroke-width:2px;
+  style C fill:#9fd8ff, stroke:#2472c8, stroke-width:2px;
+  style D fill:#9fd8ff, stroke:#2472c8, stroke-width:2px;
+  style E fill:#9fd8ff, stroke:#2472c8, stroke-width:2px;
+  style F fill:#9fd8ff, stroke:#2472c8, stroke-width:2px;
+  style G fill:#9fd8ff, stroke:#2472c8, stroke-width:2px;
+  style H fill:#9fd8ff, stroke:#2472c8, stroke-width:2px;
+  style I fill:#9fd8ff, stroke:#2472c8, stroke-width:2px;
+
+
+```
 ---
 
 ## License 📃
