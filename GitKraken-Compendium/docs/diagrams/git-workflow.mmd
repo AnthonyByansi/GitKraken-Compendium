@@ -1,23 +1,18 @@
-graph LR
 
-  subgraph Master
-    A(Master)
-    A --> |"Create Feature Branch"| B(Feature Branch)
-  end
-
-  subgraph Feature
-    B --> |"Implement Feature"| C(Feature Changes)
-    C --> |"Commit Changes"| D(Commit)
-    D --> |"Push to Remote"| E
-  end
-
-  subgraph Review
-    E(Feature Branch)
-    E --> |"Create Pull Request"| F(Pull Request)
-    F --> |"Review Code"| G
-    G --> |"Merge to Master"| H
-  end
-
-  subgraph Deploy
-    H --> |"Deploy to Production"| I(Production)
-  end
+graph TD
+  A[Master Branch] -- Checkout --> B{Create New Branch?}
+  B -- Yes --> C(Create Branch)
+  B -- No --> D(Checkout Branch)
+  C --> E(Work on the Branch)
+  E --> F(Commit Changes)
+  F --> G(Push Branch)
+  G --> H(Create Pull Request)
+  H --> I{Code Review and Testing}
+  I -- Approved --> J(Merge to Master)
+  J --> K{Deploy to Production?}
+  K -- Yes --> L(Deploy Changes)
+  L --> M(Release Completed)
+  K -- No --> N(Continue Development)
+  N --> E
+  I -- Changes Requested --> E
+  J --> B
