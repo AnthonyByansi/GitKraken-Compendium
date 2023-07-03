@@ -2,7 +2,8 @@
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-The GitKraken-Compendium repository serves as a comprehensive guide and resource for exploring the features, functionalities, and best practices associated with GitKraken, a popular Git client.
+The GitKraken-Compendium repository serves as a comprehensive guide and resource for exploring the features, functionalities, and best practices associated with ![GitKraken](https://img.shields.io/badge/Gitkraken-green)
+, a popular Git client.
 
 ## Table of Contents 📚
 
