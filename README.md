@@ -75,6 +75,56 @@ graph LR
 ```
 ---
 
+```mermaid
+flowchart LR
+
+subgraph Core
+  id1[Install GitKraken]
+  id2[Authenticate Git Hosting]
+  id3[Clone a Repository]
+  id4[Learn the Interface]
+  id5[Basic Commit and Push]
+end
+
+subgraph Features
+  id6[Branch Management]
+  id7[Merge and Resolve Conflicts]
+  id8[Code Reviews]
+  id9[Interactive Rebasing]
+  id10[Issue Tracking Integration]
+end
+
+subgraph Resources
+  id11[Documentation]
+  id12[Tutorials and Guides]
+  id13[Community Forums]
+  id14[Video Tutorials]
+end
+
+id1 --> id2
+id2 --> id3
+id3 --> id4
+id4 --> id5
+
+id4 --> id6
+id6 --> id7
+id6 --> id9
+id6 --> id10
+id7 --> id8
+
+id1 --> id11
+id11 --> id12
+id11 --> id13
+id11 --> id14
+
+style Core fill:#FFCC99, stroke:#FF8000, stroke-width:2px
+style Features fill:#BFEFFF, stroke:#4D90FE, stroke-width:2px
+style Resources fill:#CCE5FF, stroke:#1C77FF, stroke-width:2px
+
+
+```
+---
+
 ## License 📃
 
 This repository is licensed under the [MIT License](LICENSE). By using or contributing to GitKraken-Compendium, you agree to the terms and conditions of this license.
