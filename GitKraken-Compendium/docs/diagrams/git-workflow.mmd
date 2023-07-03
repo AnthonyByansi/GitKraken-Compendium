@@ -1,0 +1,9 @@
+graph LR
+  A[Create New Branch] --> B(Add and Commit Changes)
+  B --> C(Push Branch to Remote)
+  C --> D{Are Changes Ready for Merge?}
+  D -- Yes --> E(Create Pull Request)
+  E --> F(Review and Approve Pull Request)
+  F --> G(Merge Pull Request)
+  G --> H(Delete Merged Branch)
+  D -- No --> B
