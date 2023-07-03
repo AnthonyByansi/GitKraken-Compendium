@@ -2,58 +2,70 @@
 
 Thank you for considering contributing to GitKraken-Compendium! 🎉
 
-We welcome contributions in the form of bug reports, feature requests, documentation improvements, and code contributions. By contributing, you help make GitKraken-Compendium better for everyone.
+The goal of this repository is to provide an extensive resource for GitKraken users and enthusiasts. We value your contributions and welcome any improvements, bug fixes, or new content that can enhance the overall experience of our users.
 
-## Bug Reports and Feature Requests
+## Table of Contents
 
-If you encounter a bug or have a feature request, please open an issue on the [Issue Tracker](https://github.com/AnthonyByansi/GitKraken-Compendium/issues) and provide as much detail as possible. This will help us understand and address the issue efficiently.
+- [Getting Started](#getting-started)
+- [Contributing Guidelines](#contributing-guidelines)
+- [Code of Conduct](#code-of-conduct)
+- [Reporting Issues](#reporting-issues)
+- [Making Contributions](#making-contributions)
+- [Mermaid Diagrams](#mermaid-diagrams)
+- [License](#license)
 
-## Documentation Improvements
+## Getting Started
 
-The GitKraken-Compendium documentation can always benefit from improvements. If you find any errors, unclear explanations, or missing information, feel free to submit a pull request. We appreciate your attention to detail and efforts to make the documentation more comprehensive and accurate.
+Before contributing to GitKraken-Compendium, please ensure you have the following:
 
-## Code Contributions
+- An active GitHub account.
+- Familiarity with Markdown syntax for writing content.
+- Basic knowledge of Git and how to create pull requests.
 
-If you are interested in making code contributions to GitKraken-Compendium, please follow these steps:
+## Contributing Guidelines
 
-1. Fork the repository and create a new branch from `main`.
-2. Make your code changes, ensuring adherence to the coding conventions and best practices.
-3. Write tests to cover your changes and ensure existing tests pass.
-4. Commit your changes and write clear, concise commit messages.
-5. Push your branch to your forked repository.
-6. Submit a pull request to the `main` branch of the main repository.
+1. Fork the GitKraken-Compendium repository to your GitHub account.
 
-We will review your pull request and provide feedback as soon as possible. Your contributions will be thoroughly appreciated!
+2. Clone your forked repository to your local machine: `https://github.com/AnthonyByansi/GitKraken-Compendium.git`
 
----
+3. Create a new branch for your contributions: `git checkout -b feature/your-feature-name`
+  
+4. Make your changes and improvements, adhering to the repository's file structure and formatting guidelines.
 
-## Code Style and Conventions
+5. Commit your changes with a clear and descriptive commit message: `git commit -m "Add feature: your feature description"`
 
-Please adhere to the following code style and conventions when making code contributions:
+6. Push your changes to your GitHub repository: `git push origin feature/your-feature-name`
+7. 
+7. Create a pull request (PR) from your branch to the `main` branch of the original repository.
 
-- Use consistent indentation (e.g., 2 spaces) and meaningful variable names.
-- Follow the existing naming conventions for functions, variables, and classes.
-- Write clear and concise comments to improve code readability.
-- Ensure your code follows best practices and is optimized for performance.
-- Document any public-facing functions or methods with JSDoc-style comments.
+8. Your PR will be reviewed by maintainers, and if everything looks good, it will be merged.
 
-  ---
+## Code of Conduct
 
-## License
+Please adhere to the [Code of Conduct](CODE_OF_CONDUCT.md) when contributing to this project. We promote a respectful and inclusive community for everyone.
 
-By contributing to GitKraken-Compendium, you agree that your contributions will be licensed under the [MIT License](LICENSE).
+## Reporting Issues
 
----
+If you encounter any bugs, issues, or have suggestions for improvements, please check the [existing issues]() and open a new issue if necessary. Provide as much detail as possible to help us understand and address the problem effectively.
 
-> Below is a Mermaid diagram showing the Git workflow for making contributions:
+## Making Contributions
+
+We welcome the following types of contributions:
+
+- Creating or updating user guides, tutorials, and documentation.
+- Fixing grammatical errors, typos, or broken links.
+- Implementing improvements to the source code or testing suites.
+
+## ![Static Badge](https://img.shields.io/badge/Thank_You-green)
 
 ```mermaid
-graph TD
-  A[Fork Repository] --> B[Create New Branch]
-  B --> C[Make Code Changes]
-  C --> D[Write Tests]
-  D --> E[Commit Changes]
-  E --> F[Push Branch]
-  F --> G[Submit Pull Request]
-```
----
+graph LR;
+ A[User] --> B(GitKraken-Compendium);
+ B --> C{Review};
+ C --> B;
+ C --> D[Approved];
+ C --> E[Changes requested];
+ D --> B;
+ E --> B;
+
+
