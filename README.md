@@ -39,15 +39,39 @@ The following Mermaid architecture diagram illustrates a suggested learning road
 
 ```mermaid
 graph LR
-  A[Getting Started with Git] --> B(Install GitKraken)
-  B --> C(Connect GitKraken to Git Hosting Provider)
-  C --> D(Clone Repository)
-  D --> E(Explore GitKraken Interface)
-  E --> F(Perform Basic Git Operations)
-  F --> G(Work with Branches)
-  G --> H(Resolve Merge Conflicts)
-  H --> I(Perform Code Reviews)
-  I --> J(Advanced GitKraken Features)
+  subgraph GitKraken
+    subgraph Version Control
+      A[Branching] --> B[Merging]
+      C[Pull Requests] --> B
+      B --> D[Conflict Resolution]
+      E[Cherry-picking] --> B
+    end
+
+    subgraph Collaboration
+      F[Code Reviews] --> G[Comments and Feedback]
+      H[Notifications] --> G
+      I[Shared Repositories] --> G
+    end
+
+    subgraph Productivity
+      J[Search and Filtering] --> K[Text and File Search]
+      L[Time Travel] --> M[Commit Reverting]
+      L --> N[Interactive Rebase]
+    end
+
+    subgraph Integrations
+      O[Jira Integration] --> P[Linking Commits to Issues]
+      Q[Trello Integration] --> P
+      R[Slack Integration] --> S[Notifications in Slack]
+    end
+
+    subgraph Extensions
+      T[Glo Boards] --> U[Visual Project Management]
+      V[Timelines] --> W[Visualize Project Timelines]
+      X[GitKraken CLI] --> Y[Command-line Interface]
+    end
+  end
+
 ```
 
 ---
