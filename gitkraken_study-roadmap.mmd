@@ -1,32 +1,44 @@
-graph TB
+flowchart LR
 
-  subgraph GitKraken
-    style GitKraken fill:#6D57FF,stroke:#3F3697,color:#FFFFFF;
+subgraph Core
+  id1[Install GitKraken]
+  id2[Authenticate Git Hosting]
+  id3[Clone a Repository]
+  id4[Learn the Interface]
+  id5[Basic Commit and Push]
+end
 
-    subgraph VersionControl
-      style VersionControl fill:#4E88FF,stroke:#3F3697,color:#FFFFFF;
-      VC1[Centralized] --> VC2[Decentralized]
-      VC2 --> VC3[Distributed]
-    end
+subgraph Features
+  id6[Branch Management]
+  id7[Merge and Resolve Conflicts]
+  id8[Code Reviews]
+  id9[Interactive Rebasing]
+  id10[Issue Tracking Integration]
+end
 
-    subgraph Collaboration
-      style Collaboration fill:#89E7FF,stroke:#3F3697,color:#FFFFFF;
-      C1[Code Reviews] --> C2[Pull Requests]
-      C2 --> C3[Collaborative Editing]
-    end
+subgraph Resources
+  id11[Documentation]
+  id12[Tutorials and Guides]
+  id13[Community Forums]
+  id14[Video Tutorials]
+end
 
-    subgraph Visualization
-      style Visualization fill:#5AFFC9,stroke:#3F3697,color:#FFFFFF;
-      V1[Commit Graph] --> V2[Branches]
-      V2 --> V3[Timelines]
-    end
-  end
+id1 --> id2
+id2 --> id3
+id3 --> id4
+id4 --> id5
 
-  subgraph Roadmap
-    style Roadmap fill:#F2F2F2,stroke:#CCCCCC,color:#000000;
-    R1(2023 Q1) --> R2(2023 Q2)
-    R2 --> R3(2023 Q3)
-    R3 --> R4(2023 Q4)
-  end
+id4 --> id6
+id6 --> id7
+id6 --> id9
+id6 --> id10
+id7 --> id8
 
-  GitKraken --> Roadmap
+id1 --> id11
+id11 --> id12
+id11 --> id13
+id11 --> id14
+
+style Core fill:#FFCC99, stroke:#FF8000, stroke-width:2px
+style Features fill:#BFEFFF, stroke:#4D90FE, stroke-width:2px
+style Resources fill:#CCE5FF, stroke:#1C77FF, stroke-width:2px
