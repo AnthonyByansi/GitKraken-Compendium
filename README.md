@@ -49,9 +49,10 @@ graph LR
   H --> I(Perform Code Reviews)
   I --> J(Advanced GitKraken Features)
 ```
+
 ---
 
-## License 📃 
+## License 📃
 
 This repository is licensed under the [MIT License](LICENSE). By using or contributing to GitKraken-Compendium, you agree to the terms and conditions of this license.
 
