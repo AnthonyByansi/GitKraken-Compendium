@@ -1,0 +1,12 @@
+graph LR
+  A[Main Branch] -- Checkout --> B(Checkout Branch)
+  B --> C(Work on the Branch)
+  C --> D(Commit Changes)
+  D --> E(Push Branch)
+  E --> F(Create Pull Request)
+  F --> G{Conflicts?}
+  G -- Yes --> H(Resolve Conflicts)
+  H --> I(Commit Changes)
+  I --> J(Push Branch)
+  J --> F
+  G -- No --> K(Merge to Main)
