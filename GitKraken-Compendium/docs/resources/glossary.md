@@ -40,4 +40,4 @@ This glossary provides definitions for key terms and concepts used in GitKraken.
 
 ## Conclusion
 
-This glossary provides an overview of important GitKraken terms and associated commands. Refer to this resource whenever you come across unfamiliar terms or need clarification on specific concepts. Understanding these terms will empower you to navigate GitKraken with confidence. Happy coding! 💻🎉
+This glossary provides an overview of important GitKraken terms and associated commands. Refer to this resource whenever you come across unfamiliar terms or need clarification on specific concepts. Understanding these terms will empower you to navigate GitKraken with confidence. 
