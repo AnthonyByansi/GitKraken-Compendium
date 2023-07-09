@@ -52,6 +52,79 @@ To install GitKraken on Linux:
 
 To verify the successful installation of GitKraken, open GitKraken and ensure that it launches without any errors. You can also check for any available updates within the application. ✅🔍
 
+```mermaid
+
+graph TD
+
+subgraph Prerequisites
+  A[Operating System]
+  B[System Requirements]
+  C[Internet Connection]
+end
+
+subgraph Windows
+  clickDownloadButton[Visit GitKraken website and click "Download" button]
+  runInstaller[Run installer file]
+  completeInstallation[Follow on-screen instructions to complete installation]
+  launchGitKraken[Launch GitKraken]
+end
+
+subgraph macOS
+  clickDownloadButton2[Visit GitKraken website and click "Download" button]
+  openDmg[Open downloaded .dmg file]
+  dragDrop[Drag and drop GitKraken.app file into Applications folder]
+  launchGitKraken2[Launch GitKraken]
+end
+
+subgraph Linux
+  clickDownloadButton3[Visit GitKraken website and click "Download" button]
+  choosePackage[Choose appropriate package format for Linux distribution]
+  navigateTerminal[Open terminal and navigate to downloaded package directory]
+  runInstallationCommand[Run package installation command specific to Linux distribution]
+  launchGitKraken3[Launch GitKraken]
+end
+
+subgraph VerifyInstallation
+  openGitKraken[Open GitKraken]
+  checkErrors[Check for any launch errors]
+  checkUpdates[Check for available updates]
+end
+
+subgraph Congratulations
+  readyStart[Ready to start using GitKraken]
+  support[Refer to troubleshooting guide or contact support for assistance]
+end
+
+Prerequisites --> Windows
+Prerequisites --> macOS
+Prerequisites --> Linux
+
+Windows --> clickDownloadButton
+clickDownloadButton --> runInstaller
+runInstaller --> completeInstallation
+completeInstallation --> launchGitKraken
+
+macOS --> clickDownloadButton2
+clickDownloadButton2 --> openDmg
+openDmg --> dragDrop
+dragDrop --> launchGitKraken2
+
+Linux --> clickDownloadButton3
+clickDownloadButton3 --> choosePackage
+choosePackage --> navigateTerminal
+navigateTerminal --> runInstallationCommand
+runInstallationCommand --> launchGitKraken3
+
+VerifyInstallation --> openGitKraken
+openGitKraken --> checkErrors
+checkErrors --> checkUpdates
+
+checkUpdates --> readyStart
+checkErrors --> support
+
+```
+--- 
+
 Congratulations! You have successfully installed GitKraken on your operating system. You are now ready to start using GitKraken for your version control needs. 👏🎉
 
 If you encounter any issues during the installation process, refer to the [troubleshooting](../troubleshooting.md) guide or reach out to the GitKraken support team for further assistance. 🛠️🆘
