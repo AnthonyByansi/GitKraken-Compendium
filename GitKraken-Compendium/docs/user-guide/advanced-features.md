@@ -4,11 +4,11 @@ GitKraken provides advanced features that empower developers and teams to optimi
 
 ## Table of Contents 📑
 
-- [GitKraken Glo Boards](#gitkraken-glo-boards) 📌
-- [Git Integration with Slack](#git-integration-with-slack) 💬
-- [GitKraken Timelines](#gitkraken-timelines) 📊
-- [GitKraken CLI](#gitkraken-cli) ⌨️
-- [GitKraken Gitflow](#gitkraken-gitflow) 🌱
+- [GitKraken Glo Boards](#gitkraken-glo-boards-) 📌
+- [Git Integration with Slack](#git-integration-with-slack-) 💬
+- [GitKraken Timelines](#gitkraken-timelines-) 📊
+- [GitKraken CLI](#gitkraken-cli-) ⌨️
+- [GitKraken Gitflow](#gitkraken-gitflow-) 🌱
 
 ## GitKraken Glo Boards 📌
 
