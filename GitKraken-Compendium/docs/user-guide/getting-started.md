@@ -4,14 +4,14 @@ This guide will walk you through the initial setup and basic usage of GitKraken,
 
 ## Table of Contents 📑
 
-- [Installation](#installation) 📥
-- [Authentication](#authentication) 🔐
-- [Cloning a Repository](#cloning-a-repository) 📂
-- [Interface Overview](#interface-overview) 🖥️
-- [Creating Commits](#creating-commits) ✍️
-- [Working with Branches](#working-with-branches) 🌿
-- [Pushing and Pulling Changes](#pushing-and-pulling-changes) 🔄
-- [Resolving Conflicts](#resolving-conflicts) ⚖️
+- [Installation](#installation-) 📥
+- [Authentication](#authentication-) 🔐
+- [Cloning a Repository](#cloning-a-repository-) 📂
+- [Interface Overview](#interface-overview-) 🖥️
+- [Creating Commits](#creating-commits-) ✍️
+- [Working with Branches](#working-with-branches-) 🌿
+- [Pushing and Pulling Changes](#pushing-and-pulling-changes-) 🔄
+- [Resolving Conflicts](#resolving-conflicts-) ⚖️
 
 ## Installation 💻
 
