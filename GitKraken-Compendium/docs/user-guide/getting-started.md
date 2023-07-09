@@ -55,7 +55,7 @@ Ensure that GitKraken is successfully installed on your system by following the 
 
 2. Switch between branches by selecting the desired branch from the branch dropdown. 🔀
 
-3. Merge branches by dragging one branch onto another in the commit graph or by right-clicking on a branch and selecting "Merge branch into current". 🔄🔗
+3. Merge branches by dragging one branch onto another in the commit-graph or by right-clicking on a branch and selecting "Merge branch into current". 🔄🔗
 
 ## Pushing and Pulling Changes 🔄
 
@@ -71,4 +71,22 @@ Ensure that GitKraken is successfully installed on your system by following the 
 
 3. After resolving conflicts, stage the modified files and create a new commit. ➕✍️
 
+
+```mermaid
+graph TB
+    A[Start] --> B[Installation]
+    B --> C[Authentication]
+    C --> D[Cloning a Repository]
+    D --> E[Interface Overview]
+    E --> F[Creating Commits]
+    F --> G[Working with Branches]
+    G --> H[Pushing and Pulling Changes]
+    H --> I[Resolving Conflicts]
+    I --> J[End]
+```
+--- 
+
 Congratulations! You are now familiar with the basic usage of GitKraken. Continue exploring the advanced features and capabilities of GitKraken in the user guide to enhance your version control workflow. 👏🎉
+
+
+
