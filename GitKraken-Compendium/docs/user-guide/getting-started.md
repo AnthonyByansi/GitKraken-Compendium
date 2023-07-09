@@ -55,7 +55,7 @@ Ensure that GitKraken is successfully installed on your system by following the 
 
 2. Switch between branches by selecting the desired branch from the branch dropdown. 🔀
 
-3. Merge branches by dragging one branch onto another in the commit-graph or by right-clicking on a branch and selecting "Merge branch into current". 🔄🔗
+3. Merge branches by dragging one branch onto another in the commit graph or by right-clicking on a branch and selecting "Merge branch into current". 🔄🔗
 
 ## Pushing and Pulling Changes 🔄
 
@@ -73,16 +73,65 @@ Ensure that GitKraken is successfully installed on your system by following the 
 
 
 ```mermaid
-graph TB
-    A[Start] --> B[Installation]
-    B --> C[Authentication]
-    C --> D[Cloning a Repository]
-    D --> E[Interface Overview]
-    E --> F[Creating Commits]
-    F --> G[Working with Branches]
-    G --> H[Pushing and Pulling Changes]
-    H --> I[Resolving Conflicts]
-    I --> J[End]
+graph LR
+
+subgraph GitKraken
+  A((Installation)) --> B(Authentication)
+  B --> C(Cloning a Repository)
+  C --> D(Interface Overview)
+  D --> E(Creating Commits)
+  E --> F(Working with Branches)
+  F --> G(Pushing and Pulling Changes)
+  G --> H(Resolving Conflicts)
+end
+
+A --> B
+B --> C
+C --> D
+D --> E
+E --> F
+F --> G
+G --> H
+
+subgraph User
+  I[Make changes to files]
+  E --> I
+  I --> E
+
+  J[Review file changes]
+  E --> J
+
+  K[Stage files for commit]
+  J --> K
+
+  L[Provide commit message]
+  K --> L
+
+  M[Create commit]
+  L --> M
+
+  N[Create new branch]
+  F --> N
+
+  O[Switch between branches]
+  F --> O
+
+  P[Merge branches]
+  F --> P
+
+  Q[Push local commits]
+  G --> Q
+
+  R[Pull latest changes]
+  G --> R
+
+  S[Resolve conflicts]
+  H --> S
+
+  T[Explore advanced features]
+  H --> T
+end
+
 ```
 --- 
 
