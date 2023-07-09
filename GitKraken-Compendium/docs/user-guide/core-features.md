@@ -67,4 +67,48 @@ GitKraken seamlessly integrates with popular issue-tracking platforms like Jira 
 
 - **Tracking Issue Status**: Stay informed about the status of issues within GitKraken, making it easier to track progress and relate code changes to specific tasks. 📊📎
 
+```mermaid
+graph TD
+
+A[Core Features of GitKraken] --> B[Visual Git Graph]
+A --> C[Effortless Branching and Merging]
+A --> D[Code Reviews and Collaboration]
+A --> E[Advanced Search and Filtering]
+A --> F[Interactive Rebase]
+A --> G[Issue Tracking Integration]
+
+B --> B1[Commit History]
+B --> B2[Branches and Tags]
+B --> B3[Merge and Rebase]
+
+C --> C1[Branch Management]
+C --> C2[Conflict Resolution]
+C --> C3[Pull Requests]
+
+D --> D1[Inline Comments]
+D --> D2[Reviewer Workflow]
+D --> D3[Notifications]
+
+E --> E1[Quick Search]
+E --> E2[Filtering]
+
+F --> F1[Squashing Commits]
+F --> F2[Rearranging Commits]
+F --> F3[Editing Commit Messages]
+
+G --> G1[Linking Commits and Branches]
+G --> G2[Tracking Issue Status]
+
+style A fill:#FFC700, stroke:#000000, stroke-width:2px;
+style B fill:#D2E5FF, stroke:#000000, stroke-width:2px;
+style C fill:#FFD7D7, stroke:#000000, stroke-width:2px;
+style D fill:#B6FFB6, stroke:#000000, stroke-width:2px;
+style E fill:#FFE8B6, stroke:#000000, stroke-width:2px;
+style F fill:#FFC7FF, stroke:#000000, stroke-width:2px;
+style G fill:#D7D7D7, stroke:#000000, stroke-width:2px;
+style B1,B2,B3,C1,C2,C3,D1,D2,D3,E1,E2,F1,F2,F3,G1,G2 fill:#FFFFFF, stroke:#000000, stroke-width:2px;
+
+```
+--- 
+
 By leveraging these core features of GitKraken, you can enhance your version control workflow, streamline collaboration, and optimize your Git experience. 🚀🔗💻
