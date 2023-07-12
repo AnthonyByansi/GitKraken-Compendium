@@ -56,7 +56,7 @@ We welcome the following types of contributions:
 - Fixing grammatical errors, typos, or broken links.
 - Implementing improvements to the source code or testing suites.
 
-## ![Static Badge](https://img.shields.io/badge/Thank_You-green)
+## ![Static Badge](https://img.shields.io/badge/Thank_You for your contributions-green)
 
 ```mermaid
 graph LR;
