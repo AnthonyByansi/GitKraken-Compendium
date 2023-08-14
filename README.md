@@ -41,38 +41,35 @@ The following Mermaid architecture diagram illustrates a suggested learning road
 
 ```mermaid
 graph LR
-  subgraph GitKraken
-    subgraph Version Control
-      A[Branching] --> B[Merging]
-      C[Pull Requests] --> B
-      B --> D[Conflict Resolution]
-      E[Cherry-picking] --> B
-    end
-
-    subgraph Collaboration
-      F[Code Reviews] --> G[Comments and Feedback]
-      H[Notifications] --> G
-      I[Shared Repositories] --> G
-    end
-
-    subgraph Productivity
-      J[Search and Filtering] --> K[Text and File Search]
-      L[Time Travel] --> M[Commit Reverting]
-      L --> N[Interactive Rebase]
-    end
-
-    subgraph Integrations
-      O[Jira Integration] --> P[Linking Commits to Issues]
-      Q[Trello Integration] --> P
-      R[Slack Integration] --> S[Notifications in Slack]
-    end
-
-    subgraph Extensions
-      T[Glo Boards] --> U[Visual Project Management]
-      V[Timelines] --> W[Visualize Project Timelines]
-      X[GitKraken CLI] --> Y[Command-line Interface]
-    end
-  end
+  A[Start Here] --> B[Understand Version Control]
+  B --> C[Learn Git Basics]
+  C --> D[Explore GitKraken Interface]
+  D --> E[Initialize a Repository]
+  D --> F[Clone a Repository]
+  D --> G[Commit Changes]
+  D --> H[Push & Pull Changes]
+  D --> I[Resolve Merge Conflicts]
+  D --> J[Create & Switch Branches]
+  D --> K[View Commit History]
+  C --> L[Master Git Commands]
+  L --> M[git add]
+  L --> N[git commit]
+  L --> O[git push]
+  L --> P[git pull]
+  L --> Q[git merge]
+  L --> R[git branch]
+  B --> S[Explore Advanced Concepts]
+  S --> T[Rebase & Interactive Rebase]
+  S --> U[Git Workflows]
+  S --> V[Git Hooks]
+  S --> W[Git Submodules]
+  B --> X[Collaborative Development]
+  X --> Y[Pull Requests]
+  X --> Z[Code Reviews]
+  X --> AA[Collaboration via GitKraken]
+  A --> AB[Practice and Projects]
+  AB --> AC[Real-world Projects]
+  AC --> AD[Utilize GitKraken for Project Management]
 
 ```
 ---
@@ -118,9 +115,6 @@ id1 --> id11
 id11 --> id12
 id11 --> id13
 id11 --> id14
-
-
-
 
 ```
 ---
