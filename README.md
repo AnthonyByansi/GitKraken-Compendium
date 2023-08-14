@@ -37,7 +37,7 @@ Contributions to GitKraken-Compendium are highly appreciated! If you would like 
 
 ## GitKraken Learning Roadmap
 
-The following Mermaid architecture diagram illustrates a suggested learning roadmap for GitKraken:
+The subsequent Mermaid architecture diagram depicts an advised learning pathway for GitKraken
 
 ```mermaid
 graph LR
