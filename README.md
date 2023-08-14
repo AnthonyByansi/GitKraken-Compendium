@@ -21,7 +21,7 @@ GitKraken-Compendium provides in-depth documentation on how to effectively use G
 
 ## Documentation 📖
 
-The `docs/` directory contains detailed user guides, API references, tutorials, and additional resources to help you understand and master GitKraken. It covers various topics such as installation, getting started, core features, advanced features, troubleshooting, and more.
+The [`docs/`](docs) directory contains detailed user guides, API references, tutorials, and additional resources to help you understand and master GitKraken. It covers various topics such as installation, getting started, core features, advanced features, troubleshooting, and more.
 
 ## Source Code 🏗️ 
 
