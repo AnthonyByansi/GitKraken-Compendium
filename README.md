@@ -33,7 +33,7 @@ The [`tests/`](tests) directory contains test suites that correspond to the diff
 
 ## Contributing 🤝
 
-Contributions to GitKraken-Compendium are highly appreciated! If you would like to contribute, please follow the guidelines outlined in the [CONTRIBUTING.md](GitKraken-Compendium/CONTRIBUTING.md) file. By contributing, you agree to release your contributions under the [MIT License](LICENSE).
+Contributions to GitKraken-Compendium are highly appreciated! If you would like to contribute, please follow the guidelines outlined in the [CONTRIBUTING.md](CONTRIBUTING.md) file. By contributing, you agree to release your contributions under the [MIT License](LICENSE).
 
 ## GitKraken Learning Roadmap
 
