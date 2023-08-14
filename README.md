@@ -25,11 +25,11 @@ The [`docs/`](docs) directory contains detailed user guides, API references, tut
 
 ## Source Code 🏗️ 
 
-The `src/` directory holds the source code for different components of GitKraken. It includes the core functionality, extensions (Glo Boards, Timelines, CLI), and utility functions. Feel free to explore the source code to gain insights into how GitKraken works under the hood.
+The [`src/`](src) directory holds the source code for different components of GitKraken. It includes the core functionality, extensions (Glo Boards, Timelines, CLI), and utility functions. Feel free to explore the source code to gain insights into how GitKraken works under the hood.
 
 ## Testing 🧪
 
-The `tests/` directory contains test suites that correspond to the different sections of the documentation. These tests ensure the reliability and correctness of the GitKraken-Compendium repository. Contributions to the test suite are welcome to enhance the overall quality of the documentation.
+The [`tests/`](tests) directory contains test suites that correspond to the different sections of the documentation. These tests ensure the reliability and correctness of the GitKraken-Compendium. Contributions to the test suite are welcome to enhance the overall quality of the documentation.
 
 ## Contributing 🤝
 
