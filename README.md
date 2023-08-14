@@ -12,6 +12,7 @@ The GitKraken-Compendium repository serves as a comprehensive guide and resource
 - [Source Code](#source-code-)
 - [Testing](#testing-)
 - [Contributing](#contributing-)
+- [GitKraken Learning Roadmap](#gitKraken-learning-roadmap-)
 - [License](#license-)
 
 ## Introduction 🌟
